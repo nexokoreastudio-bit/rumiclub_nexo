@@ -264,9 +264,9 @@ export default function LandingPage() {
 
       {/* Hero - 배경 영상, 로고는 흰색 라운딩 박스 안에 */}
       <section className="relative w-full h-[600px] md:h-[705px] flex items-center justify-center overflow-hidden pt-16">
-        <div className="absolute inset-0 z-0 w-full h-full overflow-hidden">
+        <div className="absolute inset-0 z-0 w-full h-full overflow-hidden bg-deep-navy">
           <iframe
-            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-0"
+            className="hidden absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-0"
             style={{
               width: '100vmax',
               height: '100vmax',
